@@ -37,7 +37,7 @@ def send_mail():
     subject = 'Price drop'
     body = 'The price on your recently marked item dropped'
 
-    msg = f"Subject: {subject}\n\n{body}"
+    msg = f"Subject: {subject}\n{body}"
 
     server.quit()
 
